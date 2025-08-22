@@ -23,10 +23,10 @@ class MemberController extends Controller
                 'email' => 'yuri@email.com',
             ],
             'sheran' => [
-                'name' => 'Member name',
-                'role' => 'Documentation Specialist',
+                'name' => 'Sheran S. Leal',
+                'role' => 'Documentation Writer',
                 'image' => 'images/prof3.jpg',
-                'email' => 'sheran@email.com',
+                'email' => 'sheran.leal1024@gmail.com',
             ],
             'rayver' => [
                 'name' => 'Member name',
@@ -150,13 +150,13 @@ class MemberController extends Controller
             ],
 
             'sheran' => [
-                'name' => 'Eidref Jake S. Manalansan',
-                'role' => 'Documentation Specialist',
-                'description' => 'I’m Eidref, passionate about creativity and technology. I enjoy designing and building simple websites and love exploring new things in the tech world.',
-                'birthdate' => 'April 3, 2005',
-                'birthplace' => 'Mabalacat City, Pampanga',
-                'address' => 'Luna, La Union',
-                'email' => 'edrfjk@gmail.com',
+                'name' => 'Sheran S. Leal',
+                'role' => 'Documentation Writer',
+                'description' => 'I’m Sheran, passionate about learning and discovering new skills. My goal is to improve myself day by day.',
+                'birthdate' => 'October 24, 2005',
+                'birthplace' => 'Tagudin, Ilocos Sur',
+                'address' => 'Ambalayat Tagudin, Ilocos Sur',
+                'email' => 'sheran.leal1024@gmail.com',
                 'image' => 'images/prof2.jpg',
 
                 'education' => [
@@ -168,35 +168,34 @@ class MemberController extends Controller
                     ],
                     [
                         'level' => 'Senior High School',
-                        'school' => 'OANARI NHS',
-                        'desc' => 'Finished Strand: GAS',
+                        'school' => 'Ambalayat Integrated School',
+                        'desc' => 'Finished Strand: TVL-ICT',
                         'logo' => 'images/school/oanari.jpg'
                     ],
                     [
                         'level' => 'High School',
-                        'school' => 'OANARI NHS',
+                        'school' => 'Ambalayat Integrated School',
                         'desc' => 'Studied here',
                         'logo' => 'images/school/oanari.jpg'
                     ],
                     [
                         'level' => 'Elementary School',
-                        'school' => 'Oaqui Elementary School',
+                        'school' => 'Ambalayat Integrated School',
                         'desc' => 'Graduated',
                         'logo' => 'images/school/oaqui.jpg'
                     ],
                 ],
 
                 'skills' => [
-                    ['name' => 'Frontend Development', 'icon' => 'https://img.icons8.com/ios-filled/50/000000/html-5.png'],
-                    ['name' => 'Backend Development', 'icon' => 'https://img.icons8.com/ios-filled/50/000000/server.png'],
-                    ['name' => 'Networking', 'icon' => 'https://img.icons8.com/ios-filled/50/000000/network-card.png'],
-                    ['name' => 'Writing Stories', 'icon' => 'https://img.icons8.com/ios-filled/50/000000/pen.png'],
-                    ['name' => 'Time Management', 'icon' => 'https://img.icons8.com/ios-filled/50/000000/time-management.png'],
-                    ['name' => 'Adaptability', 'icon' => 'https://img.icons8.com/ios-filled/50/000000/change.png'],
+                    ['name' => 'Creativity'],
+                    ['name' => 'Multitasking'],
+                    ['name' => 'Networking'],
+                    ['name' => 'Critical Thinking'],
+                    ['name' => 'Time Management'],
+                    ['name' => 'Teamwork'],
                 ],
 
                 'projects' => [
-                    ['title' => 'Anney Perfume Shop', 'desc' => 'An online shop for Anney Perfume customers.', 'image' => 'images/proj1.png'],
                     ['title' => 'TravELYU', 'desc' => 'An online booking system for vacations in La Union.', 'image' => 'images/proj2.png'],
                     ['title' => 'SipNServe', 'desc' => 'A web-based coffee shop for coffee lovers.', 'image' => 'images/proj3.png'],
                 ]
