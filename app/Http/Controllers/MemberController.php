@@ -202,13 +202,13 @@ class MemberController extends Controller
             ],
 
             'rayver' => [
-                'name' => 'Eidref Jake S. Manalansan',
+                'name' => 'Rayver John B. Leal',
                 'role' => 'Resource Manager',
-                'description' => 'I’m Eidref, passionate about creativity and technology. I enjoy designing and building simple websites and love exploring new things in the tech world.',
-                'birthdate' => 'April 3, 2005',
-                'birthplace' => 'Mabalacat City, Pampanga',
-                'address' => 'Luna, La Union',
-                'email' => 'edrfjk@gmail.com',
+                'description' => 'I’m Rayver, I enjoy and willing to Learn new ideas and taking on challenges. Each day, I work on learning and becoming a better version of myself.',
+                'birthdate' => 'December 22, 2004',
+                'birthplace' => 'Sam Manuel, Tarlac',
+                'address' => 'Pallogan Tagudin, Ilocos Sur',
+                'email' => 'rayverleal21@gmail.com',
                 'image' => 'images/prof4.jpg',
 
                 'education' => [
@@ -219,39 +219,35 @@ class MemberController extends Controller
                         'logo' => 'images/school/ispsc.png'
                     ],
                     [
-                        'level' => 'Senior High School',
-                        'school' => 'OANARI NHS',
-                        'desc' => 'Finished Strand: GAS',
+                       'level' => 'Senior High School',
+                        'school' => 'Ambalayat Integrated School',
+                        'desc' => 'Finished Strand: TVL-ICT',
                         'logo' => 'images/school/oanari.jpg'
                     ],
                     [
                         'level' => 'High School',
-                        'school' => 'OANARI NHS',
+                        'school' => 'Ambalayat Integrated School',
                         'desc' => 'Studied here',
                         'logo' => 'images/school/oanari.jpg'
                     ],
                     [
                         'level' => 'Elementary School',
-                        'school' => 'Oaqui Elementary School',
+                        'school' => 'Pallogan Elementary School',
                         'desc' => 'Graduated',
                         'logo' => 'images/school/oaqui.jpg'
                     ],
                 ],
 
                 'skills' => [
-                    ['name' => 'Frontend Development', 'icon' => 'https://img.icons8.com/ios-filled/50/000000/html-5.png'],
-                    ['name' => 'Backend Development', 'icon' => 'https://img.icons8.com/ios-filled/50/000000/server.png'],
-                    ['name' => 'Networking', 'icon' => 'https://img.icons8.com/ios-filled/50/000000/network-card.png'],
-                    ['name' => 'Writing Stories', 'icon' => 'https://img.icons8.com/ios-filled/50/000000/pen.png'],
-                    ['name' => 'Time Management', 'icon' => 'https://img.icons8.com/ios-filled/50/000000/time-management.png'],
-                    ['name' => 'Adaptability', 'icon' => 'https://img.icons8.com/ios-filled/50/000000/change.png'],
-                ],
+                    ['name' => 'Frontend Development 40%', 'icon' => 'https://img.icons8.com/ios-filled/50/000000/html-5.png'],
+                    ['name' => 'Backend Development 40%', 'icon' => 'https://img.icons8.com/ios-filled/50/000000/server.png'],
+                    ['name' => 'Active Listening', 'icon' => 'https://img.icons8.com/ios-filled/50/000000/network-card.png'],
+                    ['name' => 'TeamWork', 'icon' => 'https://img.icons8.com/ios-filled/50/000000/time-management.png'],
+                   ],
 
                 'projects' => [
-                    ['title' => 'Anney Perfume Shop', 'desc' => 'An online shop for Anney Perfume customers.', 'image' => 'images/proj1.png'],
-                    ['title' => 'TravELYU', 'desc' => 'An online booking system for vacations in La Union.', 'image' => 'images/proj2.png'],
-                    ['title' => 'SipNServe', 'desc' => 'A web-based coffee shop for coffee lovers.', 'image' => 'images/proj3.png'],
-                ]
+                    ['title' => 'Teyvat Wiki', 'desc' =>  'A website that shows and explain the world of Teyvat. ', 'image' => 'images/proj1.png'],
+                   ]
             ],
         ];
 
