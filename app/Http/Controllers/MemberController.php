@@ -246,7 +246,7 @@ class MemberController extends Controller
                    ],
 
                 'projects' => [
-                    ['title' => 'Teyvat Wiki', 'desc' =>  'A website that shows and explain the world of Teyvat. ', 'image' => 'images/proj1.png'],
+                    ['title' => 'Teyvat Wiki', 'desc' =>  'A website that explores and explains the world of Teyvat from the game Genshin Impact. ', 'image' => 'images/proj1.png'],
                    ]
             ],
         ];
