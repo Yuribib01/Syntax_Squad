@@ -29,10 +29,10 @@ class MemberController extends Controller
                 'email' => 'sheran.leal1024@gmail.com',
             ],
             'rayver' => [
-                'name' => 'Member name',
+                'name' => 'Rayver John B. Leal',
                 'role' => 'Resource Manager',
                 'image' => 'images/prof4.jpg',
-                'email' => 'rayver@email.com',
+                'email' => 'rayverleal21@gmail.com',
             ],
         ];
 
