@@ -157,7 +157,7 @@ class MemberController extends Controller
                 'birthplace' => 'Tagudin, Ilocos Sur',
                 'address' => 'Ambalayat Tagudin, Ilocos Sur',
                 'email' => 'sheran.leal1024@gmail.com',
-                'image' => 'images/prof2.jpg',
+                'image' => 'images/prof3.jpg',
 
                 'education' => [
                     [
@@ -187,13 +187,14 @@ class MemberController extends Controller
                 ],
 
                 'skills' => [
-                    ['name' => 'Creativity'],
-                    ['name' => 'Multitasking'],
-                    ['name' => 'Networking'],
-                    ['name' => 'Critical Thinking'],
-                    ['name' => 'Time Management'],
-                    ['name' => 'Teamwork'],
+                    ['name' => 'Creativity', 'icon' => 'https://img.icons8.com/ios-filled/50/000000/paint-palette.png'],
+                    ['name' => 'Multitasking', 'icon' => 'https://img.icons8.com/ios-filled/50/000000/work.png'],
+                    ['name' => 'Networking', 'icon' => 'https://img.icons8.com/ios-filled/50/000000/network-card.png'],
+                    ['name' => 'Critical Thinking', 'icon' => 'https://img.icons8.com/ios-filled/50/000000/idea.png'],
+                    ['name' => 'Time Management', 'icon' => 'https://img.icons8.com/ios-filled/50/000000/time-management.png'],
+                    ['name' => 'Teamwork', 'icon' => 'https://img.icons8.com/ios-filled/50/000000/conference.png'],
                 ],
+
 
                 'projects' => [
                     ['title' => 'TravELYU', 'desc' => 'An online booking system for vacations in La Union.', 'image' => 'images/proj2.png'],
@@ -222,19 +223,19 @@ class MemberController extends Controller
                        'level' => 'Senior High School',
                         'school' => 'Ambalayat Integrated School',
                         'desc' => 'Finished Strand: TVL-ICT',
-                        'logo' => 'images/school/oanari.jpg'
+                        'logo' => 'images/school/amba.jpg'
                     ],
                     [
                         'level' => 'High School',
                         'school' => 'Ambalayat Integrated School',
                         'desc' => 'Studied here',
-                        'logo' => 'images/school/oanari.jpg'
+                        'logo' => 'images/school/amba.jpg'
                     ],
                     [
                         'level' => 'Elementary School',
                         'school' => 'Pallogan Elementary School',
                         'desc' => 'Graduated',
-                        'logo' => 'images/school/oaqui.jpg'
+                        'logo' => 'images/school/pal.jpg'
                     ],
                 ],
 
