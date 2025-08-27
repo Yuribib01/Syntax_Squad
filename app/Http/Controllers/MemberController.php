@@ -17,10 +17,10 @@ class MemberController extends Controller
                 'email' => 'edrfjk@gmail.com',
             ],
             'yuri' => [
-                'name' => 'Member name',
+                'name' => 'Yuri Bib P. Somera',
                 'role' => 'Researcher',
                 'image' => 'images/prof2.jpg',
-                'email' => 'yuri@email.com',
+                'email' => 'yuribib200401@email.com',
             ],
             'sheran' => [
                 'name' => 'Sheran S. Leal',
@@ -97,13 +97,13 @@ class MemberController extends Controller
             ],
 
             'yuri' => [
-                'name' => 'Eidref Jake S. Manalansan',
+                'name' => 'Yuri Bib P. Somera',
                 'role' => 'Researcher',
-                'description' => 'I’m Eidref, passionate about creativity and technology. I enjoy designing and building simple websites and love exploring new things in the tech world.',
-                'birthdate' => 'April 3, 2005',
-                'birthplace' => 'Mabalacat City, Pampanga',
+                'description' => ' I am Yuri Bib, a researcher driven by a passion for creativity and technology. I enjoy designing and building intuitive websites, and I'm constantly exploring emerging trends and innovations in the tech world. My curiosity fuels my work, and I'm always eager to uncover new insights that can drive meaningful progress.',
+                'birthdate' => 'November 1, 2004',
+                'birthplace' => 'Bio, Tagudin, Ilocos Sur',
                 'address' => 'Luna, La Union',
-                'email' => 'edrfjk@gmail.com',
+                'email' => 'yuribib20041@gmail.com',
                 'image' => 'images/prof2.jpg',
 
                 'education' => [
@@ -115,37 +115,32 @@ class MemberController extends Controller
                     ],
                     [
                         'level' => 'Senior High School',
-                        'school' => 'OANARI NHS',
-                        'desc' => 'Finished Strand: GAS',
-                        'logo' => 'images/school/oanari.jpg'
+                        'school' => 'Luna National High School',
+                        'desc' => 'Finished Strand: HUMSS',
+                        'logo' => 'images/school/luna.jpg'
                     ],
                     [
                         'level' => 'High School',
-                        'school' => 'OANARI NHS',
+                        'school' => 'Luna National High School',
                         'desc' => 'Studied here',
-                        'logo' => 'images/school/oanari.jpg'
+                        'logo' => 'images/school/luna.jpg'
                     ],
                     [
                         'level' => 'Elementary School',
-                        'school' => 'Oaqui Elementary School',
+                        'school' => 'Busel-Busel Elementary School',
                         'desc' => 'Graduated',
                         'logo' => 'images/school/oaqui.jpg'
                     ],
                 ],
 
                 'skills' => [
-                    ['name' => 'Frontend Development', 'icon' => 'https://img.icons8.com/ios-filled/50/000000/html-5.png'],
-                    ['name' => 'Backend Development', 'icon' => 'https://img.icons8.com/ios-filled/50/000000/server.png'],
                     ['name' => 'Networking', 'icon' => 'https://img.icons8.com/ios-filled/50/000000/network-card.png'],
-                    ['name' => 'Writing Stories', 'icon' => 'https://img.icons8.com/ios-filled/50/000000/pen.png'],
                     ['name' => 'Time Management', 'icon' => 'https://img.icons8.com/ios-filled/50/000000/time-management.png'],
                     ['name' => 'Adaptability', 'icon' => 'https://img.icons8.com/ios-filled/50/000000/change.png'],
                 ],
 
                 'projects' => [
                     ['title' => 'Anney Perfume Shop', 'desc' => 'An online shop for Anney Perfume customers.', 'image' => 'images/proj1.png'],
-                    ['title' => 'TravELYU', 'desc' => 'An online booking system for vacations in La Union.', 'image' => 'images/proj2.png'],
-                    ['title' => 'SipNServe', 'desc' => 'A web-based coffee shop for coffee lovers.', 'image' => 'images/proj3.png'],
                 ]
             ],
 
